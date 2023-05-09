@@ -1,0 +1,8 @@
+meme_dict = {'cringe':'hal yang menjijikan','LOL': 'sesuatu lucu sekali','santuy': 'kata lain dari santai','gas': 'mengajak org lain untuk melakukan sesuatu','bucin': 'budak cinta, orang yang dijadikan budak oleh karena cinta','garing': 'hal yang menurut pembicara lucu tapi ternyata ga lucu'}
+            
+word = input('apa kata gaul yang ingin anda ketahui')
+if word in meme_dict.keys():
+    print(meme_dict[word])
+    
+else: 
+    print('kata tidak ditemukan, coba ulang')
